@@ -19451,7 +19451,7 @@ a.media-element:hover .media-element-close,a.media-element:hover .media-element-
 }
 
 .text-base {
-    font-size: 1rem!important
+    font-size: 1rem
 }
 
 .text-md {
@@ -19697,4 +19697,50 @@ hr.vr.full-height {
 
 .text-muted__darker {
     color: #696969
+}
+
+
+/* New styling for testing purpose*/
+
+/*change button and input styling*/
+
+.btn-primary{
+    background-color: #1b2876;
+    color: #fff;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.btn-primary:hover{
+    background-color: #1b287690;
+    color:#fff;
+   
+}
+
+.form-control.qty {
+    border-radius: 0px;
+}
+
+
+/*Change card content alignemen*/
+
+.card-coin {
+    text-align: left;
+}
+
+/*move In stock label to left*/
+.card-coin-meta {
+    justify-content: flex-start;
+}
+
+/*override some styling with !imporant (as a last resort)*/
+body > div.content.position-relative > main > section.section.py-sm-6.py-5.bg-light{
+    background-color: #b9e6d9 !important;
+}
+
+/*change product card font style*/
+
+.text-base {
+    font-size: 1.25rem !important;
+    font-weight: bold;
 }
